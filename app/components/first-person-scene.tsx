@@ -418,7 +418,7 @@ export default function BasicFirstPersonControls() {
         <Scene />
         <PointerLockControls selector="#canvas" />
       </Canvas>
-      <div className="fixed bottom-4 right-4 z-10">
+      {/* <div className="fixed bottom-4 right-4 z-10">
         <Button
           variant="outline"
           className="bg-black text-white hover:bg-gray-800 hover:text-white transition-all duration-200 border-0"
@@ -426,7 +426,7 @@ export default function BasicFirstPersonControls() {
         >
           Credits
         </Button>
-      </div>
+      </div> */}
       <CreditsDialog
         isOpen={isCreditsOpen}
         onOpenChange={(open) => setIsCreditsOpen(open)}
